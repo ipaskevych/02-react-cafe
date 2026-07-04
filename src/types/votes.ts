@@ -1,6 +1,6 @@
 // src/types/votes.ts
 
-export interface Vetes {
+export interface Votes {
   good: number;
   neutral: number;
   bad: number;
