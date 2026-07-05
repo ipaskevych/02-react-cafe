@@ -7,7 +7,7 @@ import Notification from '../Notification/Notification';
 import css from './App.module.css';
 
 export default function App() {
-  const [Votes, setVotes] = useState<Votes>({
+  const [votes, setVotes] = useState<Votes>({
     good: 0,
     neutral: 0,
     bad: 0,
